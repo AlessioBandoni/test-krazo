@@ -1,0 +1,57 @@
+body{
+    padding: 1em;
+    position: relative;
+}
+
+.event{
+    padding: 1em;
+}
+.negative{
+    background: #a90303;
+    color: white;
+}
+
+.neutral{
+    background: #E1E1E1;
+    color: black;
+}
+
+
+.positive{
+    background: green;
+    color: white;
+}
+
+nav{
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid black;
+    z-index: 1;
+    background: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+thead{
+    background: white;
+    position: sticky;
+    top:  0;
+    left: 0;
+}
+.event-table-box{
+    height: 1em;
+    width: 100%;
+    border: 1px solid black;
+}
+.table-container{
+    max-height: 30em;
+    position: relative;
+    overflow-y: auto;
+}
+
+.day{
+    column-gap: 0.5ch;
+    display: flex;
+
+}
